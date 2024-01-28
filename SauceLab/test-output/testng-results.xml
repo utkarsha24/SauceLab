@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="3" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-01-28T23:59:46 IST" name="Default suite" finished-at="2024-01-29T00:00:05 IST" duration-ms="19116">
+    <groups>
+    </groups>
+    <test started-at="2024-01-28T23:59:46 IST" name="Default test" finished-at="2024-01-29T00:00:05 IST" duration-ms="19116">
+      <class name="test.SuccessfulOrder">
+        <test-method is-config="true" signature="configureReport()[pri:0, instance:test.SuccessfulOrder@1151e434]" started-at="2024-01-28T23:59:46 IST" name="configureReport" finished-at="2024-01-28T23:59:47 IST" duration-ms="546" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configureReport -->
+        <test-method is-config="true" signature="openApp()[pri:0, instance:test.SuccessfulOrder@1151e434]" started-at="2024-01-28T23:59:47 IST" name="openApp" finished-at="2024-01-28T23:59:53 IST" duration-ms="6505" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method signature="verifyIfUserIsAbleToOrderTheMultipleProduct()[pri:0, instance:test.SuccessfulOrder@1151e434]" started-at="2024-01-28T23:59:53 IST" name="verifyIfUserIsAbleToOrderTheMultipleProduct" finished-at="2024-01-29T00:00:04 IST" duration-ms="11098" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyIfUserIsAbleToOrderTheMultipleProduct -->
+        <test-method is-config="true" signature="addTestStatus(org.testng.ITestResult)[pri:0, instance:test.SuccessfulOrder@1151e434]" started-at="2024-01-29T00:00:04 IST" name="addTestStatus" finished-at="2024-01-29T00:00:04 IST" duration-ms="19" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyIfUserIsAbleToOrderTheMultipleProduct status=SUCCESS method=SuccessfulOrder.verifyIfUserIsAbleToOrderTheMultipleProduct()[pri:0, instance:test.SuccessfulOrder@1151e434] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addTestStatus -->
+        <test-method is-config="true" signature="publishReports()[pri:0, instance:test.SuccessfulOrder@1151e434]" started-at="2024-01-29T00:00:04 IST" name="publishReports" finished-at="2024-01-29T00:00:05 IST" duration-ms="887" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- publishReports -->
+      </class> <!-- test.SuccessfulOrder -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
